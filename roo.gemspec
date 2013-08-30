@@ -130,13 +130,13 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<spreadsheet>, [">= 0.6.4"])
-      s.add_runtime_dependency(%q<rubyzip>, [">= 0.9.1"])
+      s.add_runtime_dependency(%q<rubyzip>, ["= 0.9.5"])
       s.add_runtime_dependency(%q<hpricot>, [">= 0.6"])
       s.add_runtime_dependency(%q<GData>, [">= 0.0.4"])
       s.add_runtime_dependency(%q<libxml-ruby>, [">= 1.1.3"])
     else
       s.add_dependency(%q<spreadsheet>, [">= 0.6.4"])
-      s.add_dependency(%q<rubyzip>, [">= 0.9.1"])
+      s.add_dependency(%q<rubyzip>, ["= 0.9.5"])
       s.add_dependency(%q<hpricot>, [">= 0.6"])
       s.add_dependency(%q<GData>, [">= 0.0.4"])
       s.add_dependency(%q<libxml-ruby>, [">= 1.1.3"])
